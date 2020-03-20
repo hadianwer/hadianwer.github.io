@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+<html>
+ 
+  
+<head runat="server">
+    <link rel="shortcut icon" href="images/logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssmain.css" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script data-ad-client="ca-pub-4459726646819726" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+     
+      
+    <nav>
+          <div class="logo">
+          <h4>computers-tech</h4></div>
+        <ul   class="nav-links">
+            <li><a  href="Default.aspx">home</a></li>
+            <li><a  href="about.aspx">about</a></li>
+            <li><a  href="Services.aspx">services</a></li>
+            <li><a  href="contactus.aspx">contact us</a></li>
+           
+        </ul>
+        <div class="burger">
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
+        </div>
+    </nav>
+            
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+        <script  type="text/javascript" src="JavaScript.js"></script>
+        
+    </form>
+       <div class="footer">
+        <h1 class="section-title text-center">Find Me Online</h1>
+          
+        <p class="social-media">
+          <a href="https://www.facebook.com/Techrepairing/" target="_blank" class="social-media-facebook"><i class="fa fa-facebook" ></i></a>
+          <a href="https://www.gmail.com/" target="_blank" class="social-media-google-plus"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/hadi-salahat-a9794279/" class="social-media-linkedin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a href="https://github.com/hadianwer" class="social-media-github" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/" class="social-media-youtube" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+        </p>
+            <small>hadi-sal@2019</small>
+        <hr class="section-title-underline">
+        </div>
+    <div />
+   </body>
+    
+</html>
